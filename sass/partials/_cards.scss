@@ -1,0 +1,17 @@
+.cards {
+    &__item {
+        min-height: 264px;
+        margin: 15px;
+        border-radius: 15px;
+        background: $bg-light;
+    }
+
+    &__item--outline {
+        background: $white;
+        border: 3px solid $navbar-light-active-color;
+    }
+
+    &__item--full {
+        background: $navbar-light-active-color;
+    }
+}

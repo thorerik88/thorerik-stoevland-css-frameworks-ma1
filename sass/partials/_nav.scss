@@ -1,0 +1,32 @@
+.nav {
+    background: #F4F3EE;
+    padding: 0 70px;
+
+    &__brand {
+        font-size: 36px;
+    }
+
+    &__link {
+        font-size: 18px;
+        font-family: "Archivo Narrow", sans-serif;
+    }
+
+    &__button {
+        border: none;
+        color: #463F3A;
+    }
+}
+
+.nav-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1120px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 992px) {
+    .nav {
+        padding: 0 20px;
+    }
+}
